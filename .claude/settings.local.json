@@ -13,7 +13,8 @@
       "Bash(find \"/Users/meoshamekataylor/Desktop/ASAP FRONTEND/React Projects\" -name \"package.json\" -not -path \"*/node_modules/*\" | head -10)",
       "Bash(find \"/Users/meoshamekataylor/Desktop/ASAP FRONTEND/Phase 2 JavaScript/MovieAppSolo\" -type f | head -20)",
       "mcp__Claude_in_Chrome__tabs_create_mcp",
-      "mcp__Claude_in_Chrome__find"
+      "mcp__Claude_in_Chrome__find",
+      "Bash(cp \"/Users/meoshamekataylor/Desktop/ASAP FRONTEND/React Projects/ReactMovieSolo/src/index.css\" \"/Users/meoshamekataylor/Desktop/Ticket+ Source Code/index.css\")"
     ]
   }
 }

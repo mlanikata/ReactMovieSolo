@@ -319,9 +319,10 @@ a {
   margin-top: 8px;
   width: 100%;
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(6, minmax(0, 160px));
   gap: 12px;
   padding: 12px 0;
+  justify-content: center;
 }
 
 .movie__info__icon {
