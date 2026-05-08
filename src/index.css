@@ -590,7 +590,7 @@ a {
   background-color: rgba(255, 255, 255, 0.2);
 }
 
-/* ── PLAYER PAGE ── */
+/* PLAYER PAGE */
 
 .player__page {
   min-height: 100vh;
@@ -599,7 +599,7 @@ a {
   padding: 20px 24px;
 }
 
-/* Top: poster + info side by side */
+/*  poster */
 .player__detail {
   display: flex;
   gap: 24px;
@@ -695,7 +695,7 @@ a {
   color: white;
 }
 
-/* ── SKELETON ── */
+/* SKELETON */
 
 @keyframes shimmer {
   0%   { background-position: -600px 0; }
@@ -756,82 +756,4 @@ a {
   width: 100%;
   aspect-ratio: 2 / 3;
   border-radius: 6px;
-}
-
-/* ── LARGE DESKTOP (1440px+) ── */
-@media (min-width: 1440px) {
-
-  .sidebar { width: 160px; }
-  .sidebar__label { font-size: 12px; }
-  .sidebar__link { font-size: 14px; padding: 10px 14px; }
-  .sidebar__icon { font-size: 16px; }
-  .layout__main { margin-left: 160px; }
-
-  .movie__background__wrapper { height: 420px; }
-  .movie__background__title { font-size: 64px; }
-  .movie__background__para { font-size: 20px; margin-bottom: 36px; }
-  .movie__input { width: 360px; font-size: 18px; padding: 16px 56px 16px 28px; }
-  .movie__search { font-size: 22px; right: 22px; }
-
-  .movies__list { max-width: 1300px; gap: 16px; }
-  .movie__info__title { font-size: 13px; }
-  .movie__find__btn { font-size: 12px; padding: 8px 14px; }
-
-  .movies__searchbar { height: 56px; }
-  .movies__searchbar__input { font-size: 18px; }
-  .movies__searchbar__btn { width: 44px; height: 36px; font-size: 16px; }
-
-  .player__page { padding: 32px 48px; }
-  .player__detail { gap: 40px; margin-bottom: 48px; }
-  .player__poster { width: 240px; }
-  .player__title { font-size: 36px; }
-  .player__meta { font-size: 14px; gap: 10px; }
-  .player__overview__label { font-size: 15px; }
-  .player__overview__text { font-size: 15px; }
-  .player__watch__btn { padding: 10px 22px; font-size: 14px; }
-  .player__recommended__title { font-size: 24px; margin-bottom: 20px; }
-
-  .skeleton__poster { width: 240px; }
-  .skeleton__title { height: 36px; }
-  .skeleton__btn { height: 40px; width: 110px; }
-  .skeleton__rec__title { height: 24px; margin-bottom: 20px; }
-}
-
-/* ── MOBILE (max 767px) ── */
-@media (max-width: 767px) {
-
-  .sidebar { width: 60px; padding: 16px 6px; }
-  .sidebar__label { display: none; }
-  .sidebar__link { padding: 10px; justify-content: center; gap: 0; }
-  .sidebar__link span:last-child { display: none; }
-  .sidebar__icon { font-size: 18px; width: auto; }
-  .sidebar__divider { margin: 8px 0; }
-  .layout__main { margin-left: 60px; }
-
-  .movie__background__wrapper { height: 220px; }
-  .movie__background__title { font-size: 28px; margin-bottom: 8px; }
-  .movie__background__para { font-size: 13px; margin-bottom: 16px; }
-  .movie__input { width: 200px; font-size: 13px; padding: 10px 36px 10px 16px; }
-  .movie__search { font-size: 14px; right: 12px; }
-
-  .movies__list { grid-template-columns: repeat(3, 1fr); max-width: 100%; gap: 8px; }
-  .movie__info__title { font-size: 9px; }
-  .movie__find__btn { font-size: 8px; padding: 4px 6px; }
-
-  .movies__searchbar { height: 40px; }
-  .movies__searchbar__input { font-size: 13px; }
-  .movies__searchbar__btn { width: 30px; height: 24px; font-size: 11px; }
-
-  .player__page { padding: 16px; }
-  .player__detail { flex-direction: column; gap: 16px; margin-bottom: 24px; }
-  .player__poster { width: 140px; }
-  .player__title { font-size: 20px; }
-  .player__meta { font-size: 11px; }
-  .player__overview__label { font-size: 12px; }
-  .player__overview__text { font-size: 12px; }
-  .player__overview__block { max-width: 100%; }
-  .player__watch__btn { padding: 8px 16px; font-size: 12px; }
-  .player__recommended__title { font-size: 16px; margin-bottom: 10px; }
-
-  .skeleton__poster { width: 140px; }
 }
